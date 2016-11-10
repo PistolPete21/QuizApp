@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     let answers: [String] = ["Grapes", "14", "Montpelier"]
     
     var currentQuestionIndex: Int = 0
-    
+    var nextQuestionIndex: Int = 1
     @IBAction func showNextQuestion(sender: AnyObject) {
         currentQuestionIndex += 1
         if currentQuestionIndex == questions.count {
